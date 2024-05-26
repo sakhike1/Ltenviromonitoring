@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="py-20">
+        <section class="py-20" data-aos="fade-up" data-aos-duration="3000">
             <div class="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col items-start gap-10 xl:gap-14">
                 <div class="text-center max-w-3xl mx-auto space-y-4">
                     <h1 class="text-gray-900 dark:text-white font-semibold text-4xl">
@@ -196,6 +196,10 @@
 
 <script>
 import { ref, computed } from 'vue';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 function throttle(func, delay) {
     let lastCall = 0;

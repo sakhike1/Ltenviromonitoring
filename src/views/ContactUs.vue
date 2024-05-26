@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-white dark:bg-gray-900">
-    <div class="container px-6 py-12 mx-auto">
+  <section class="bg-white dark:bg-gray-900 mt-20">
+    <div class="container px-6 py-12 mx-auto" data-aos="fade-up" data-aos-duration="3000">
       <div class="text-center ">
         <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
 
@@ -10,10 +10,12 @@
         <p class="mt-3 text-gray-500 dark:text-gray-400">Chat to our friendly team.</p>
       </div>
 
-      <img class="object-cover h-[600px] w-full h-70 mt-10 rounded-lg" :src="imageSrc" alt="">
+      <img class="object-cover h-[600px] w-full h-70 mt-10 rounded-lg hover:scale-105 transition-transform duration-300"
+        :src="imageSrc" alt="">
 
       <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2 sm:grid-cols-2 ">
-        <div class="p-4 rounded-lg bg-gradient-to-r from-emerald-500 to-lime-600  md:p-6 dark:bg-gray-800">
+        <div
+          class="p-4 rounded-lg bg-gradient-to-r from-emerald-500 to-lime-600 hover:scale-105 transition-transform duration-300  md:p-6 dark:bg-gray-800">
           <span class="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="w-5 h-5">
@@ -29,7 +31,8 @@
 
 
 
-        <div class="p-4 rounded-lg bg-gradient-to-r from-emerald-500 to-lime-600 md:p-6 dark:bg-gray-800">
+        <div
+          class="p-4 rounded-lg bg-gradient-to-r from-emerald-500 to-lime-600 md:p-6 hover:scale-105 transition-transform duration-300 dark:bg-gray-800">
           <span class="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="w-5 h-5">
@@ -48,6 +51,10 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 export default {
   data() {
     return {

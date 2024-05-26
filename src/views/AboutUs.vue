@@ -1,8 +1,8 @@
 <template>
-    <div class="container my-24 mx-auto md:px-6">
+    <div class="container  mx-auto md:px-6 mt-20" data-aos="fade-up" data-aos-duration="3000">
         <!-- Section: Design Block -->
-        <section class="mb-32">
-            <img :src="image5" class="mb-6 object-cover h-[600px] w-full rounded-lg shadow-lg dark:shadow-black/20"
+        <section class="mb-32 mt-20">
+            <img :src="image5" class="mb-6 object-cover h-[850px] w-full rounded-lg shadow-lg dark:shadow-black/20"
                 alt="image" />
 
 
@@ -32,10 +32,14 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 export default {
     data() {
         return {
-            image5: require('@/assets/clean.jpg')
+            image5: require('@/assets/aboutus.jpg')
         }
     }
 }

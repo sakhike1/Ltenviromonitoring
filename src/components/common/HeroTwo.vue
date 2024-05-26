@@ -2,7 +2,7 @@
     <div>
         <section class="py-20">
             <div class="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col md:flex-row gap-10 xl:gap-14">
-                <div class="flex flex-1 flex-col gap-5">
+                <div class="flex flex-1 flex-col gap-5" data-aos="fade-up" data-aos-duration="3000">
                     <div class="flex flex-col gap-5">
                         <div class="flex flex-col">
                             <h2 class="text-4xl lg:text-4xl font-bold text-gray-800 dark:text-white">
@@ -29,7 +29,7 @@
                                 </div>
                                 <div class="space-y-0.5">
                                     <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">
-                                        Feature
+                                        analysis of data
                                     </h3>
                                     <p class="text-gray-600 dark:text-gray-400 line-clamp-2">
                                         Systematic collection and analysis of data to track changes in environmental
@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="space-y-0.5">
                                     <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">
-                                        Feature
+                                        Conduct EIAs
                                     </h3>
                                     <p class="text-gray-600 dark:text-gray-400 line-clamp-2">
                                         Conduct EIAs to evaluate the potential environmental consequences of proposed
@@ -83,7 +83,7 @@
                                 </div>
                                 <div class="space-y-0.5">
                                     <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">
-                                        Feature
+                                        identify potential risks
                                     </h3>
                                     <p class="text-gray-600 dark:text-gray-400 line-clamp-2">
                                         identify potential risks, such as habitat destruction, air and water pollution,
@@ -95,7 +95,7 @@
                         </div>
                     </div>
                 </div>
-                <div
+                <div data-aos="fade-up" data-aos-duration="3000"
                     class="w-full md:h-auto object-cover flex md:items-end justify-center md:w-1/2 xl:w-[45%] relative">
 
                     <img :src="imageSrc" width="1001" height="1001" alt="woman with grocery"
@@ -107,6 +107,10 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 export default {
     data() {
         return {

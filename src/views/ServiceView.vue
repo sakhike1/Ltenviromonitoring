@@ -1,11 +1,12 @@
 <template>
-    <div class="container mx-auto p-6">
+    <div class="container mx-auto mt-20 p-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <!-- Image at the top -->
-        <img :src="image6" alt="Top Image" class="w-full h-auto rounded-lg mb-8" />
+        <img :src="image6" alt="Top Image" class="w-full object-fit  rounded-lg mb-8 h-[600px]" />
 
         <!-- Services Section -->
         <div class="space-y-8">
-            <div v-for="service in services" :key="service.id" class="bg-white p-6 rounded-lg shadow-lg">
+            <div v-for="service in services" :key="service.id"
+                class="bg-white p-6 rounded-lg  shadow-lg hover:scale-105 transition-transform duration-300">
                 <h2 class="text-xl font-semibold mb-4">{{ service.header }}</h2>
                 <h2 class="text-xl font-semibold mb-4">{{ service.header2 }}</h2>
                 <ul class="list-disc list-inside">
@@ -15,15 +16,24 @@
                 </ul>
             </div>
         </div>
+        <BlogViews />
     </div>
 </template>
 
 <script>
+import BlogViews from '../components/common/BlogViews.vue'
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 export default {
+    components: {
+        BlogViews
+    },
     name: 'ServicesComponent',
     data() {
         return {
-            image6: require('@/assets/clean.jpg'),
+            image6: require('@/assets/nice.jpg'),
             services: [
                 {
                     id: 1,

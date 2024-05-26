@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="py-24">
+        <section class="py-24" data-aos="fade-up" data-aos-duration="3000">
             <div class="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5">
                 <div
                     class="w-full relative py-8 md:py-10 px-6 md:px-8 rounded-2xl bg-gradient-to-tr from-gray-100 to-gray-200 dark:from-gray-900">
@@ -47,6 +47,10 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 export default {
 
 }

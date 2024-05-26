@@ -15,30 +15,30 @@
                         <p class="font-semibold text-gray-800 dark:text-white">Quick Link</p>
 
                         <div class="flex flex-col items-start mt-5 space-y-2">
-                            <a href="#"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Home</a>
-                            <a href="#"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Who
-                                We Are</a>
-                            <a href="#"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Our
-                                Philosophy</a>
+                            <router-link to="/Portfolio"
+                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Portfolio
+                            </router-link>
+                            <router-link to="/contact"
+                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Contact
+                            </router-link>
+                            <router-link to="/Service"
+                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Services</router-link>
                         </div>
                     </div>
 
                     <div>
-                        <p class="font-semibold text-gray-800 dark:text-white">Industries</p>
+                        <p class="font-semibold text-gray-800 dark:text-white">Environmental services</p>
 
                         <div class="flex flex-col items-start mt-5 space-y-2">
-                            <a href="#"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Retail
-                                & E-Commerce</a>
-                            <a href="#"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Information
-                                Technology</a>
-                            <a href="#"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Finance
-                                & Insurance</a>
+                            <router-link to="/Service"
+                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Services</router-link>
+                            <router-link to="/AboutUs"
+                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">About
+                                us
+                            </router-link>
+                            <router-link to="/Portfolio"
+                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">projects
+                            </router-link>
                         </div>
                     </div>
 
@@ -46,14 +46,10 @@
                         <p class="font-semibold text-gray-800 dark:text-white">Services</p>
 
                         <div class="flex flex-col items-start mt-5 space-y-2">
-                            <a href="#"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Translation</a>
-                            <a href="#"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Proofreading
-                                & Editing</a>
-                            <a href="#"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Content
-                                Creation</a>
+                            <router-link to="/contact"
+                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Services</router-link>
+
+
                         </div>
                     </div>
 
@@ -61,11 +57,11 @@
                         <p class="font-semibold text-gray-800 dark:text-white">Contact Us</p>
 
                         <div class="flex flex-col items-start mt-5 space-y-2">
-                            <a href="#"
+                            <router-link to="/contact"
                                 class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">0814342904
-                            </a>
-                            <a href="#"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">tebogo@homeroasty.co.za</a>
+                            </router-link>
+                            <router-link to="/contact"
+                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">tebogo@homeroasty.co.za</router-link>
                         </div>
                     </div>
                 </div>
@@ -73,9 +69,9 @@
                 <hr class="my-6 border-gray-200 md:my-10 dark:border-gray-700">
 
                 <div class="flex flex-col items-center justify-between sm:flex-row">
-                    <a href="#">
+                    <router-link to="/contact">
                         <img class="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt="">
-                    </a>
+                    </router-link>
 
                     <p class="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-300">© Copyright 2021. All Rights
                         Reserved.</p>

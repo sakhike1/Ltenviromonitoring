@@ -1,7 +1,7 @@
 <template>
-    <div class="container mx-auto p-6">
+    <div class="container mt-20 mx-auto p-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <!-- Image at the top -->
-        <img :src="image6" alt="Top Image" class="w-full h-auto rounded-lg mb-8" />
+        <img :src="image6" alt="Top Image" class="w-full  rounded-lg mb-8 object-cover h-[600px]" />
         <div class="space-y-8">
             <h1 class="space-y-8 font-bold">Directors Experience.</h1>
             <p>The Director of LT Enviromonitoring has a national diploma in environmental management,
@@ -42,6 +42,10 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 export default {
     name: 'ServicesComponent',
     data() {
