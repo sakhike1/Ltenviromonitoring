@@ -6,7 +6,7 @@
                     <div class="flex flex-col gap-5">
                         <div class="flex flex-col">
                             <h2 class="text-4xl lg:text-4xl font-bold text-gray-800 dark:text-white">
-                                Ltenvironmental offers tested results done by our qualified specialist
+                                ltenviromonitoring offers tested results done by our qualified specialist
                             </h2>
                         </div>
 

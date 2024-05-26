@@ -46,7 +46,7 @@
                         <p class="font-semibold text-gray-800 dark:text-white">Services</p>
 
                         <div class="flex flex-col items-start mt-5 space-y-2">
-                            <router-link to="/contact"
+                            <router-link to="/Service"
                                 class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Services</router-link>
 
 

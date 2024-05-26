@@ -1,5 +1,5 @@
 <template>
-    <div class="container mt-20 mx-auto p-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+    <div class="container mt-20 mx-auto p-6" data-aos="fade-up" data-aos-duration="3000">
         <!-- Image at the top -->
         <img :src="image6" alt="Top Image" class="w-full  rounded-lg mb-8 object-cover h-[600px]" />
         <div class="space-y-8">

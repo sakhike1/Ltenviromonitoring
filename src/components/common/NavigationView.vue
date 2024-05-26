@@ -6,7 +6,7 @@
                 class="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 justify-between items-center">
                 <div class="flex items-center min-w-max">
                     <router-link to="/" class="flex items-center pr-4">
-                        <img class="imgbox mt-20" :src="require('@/assets/logo5.jpg')" alt="Logo" />
+                        <img class="imgbox " :src="require('@/assets/200.png')" alt="Logo" />
 
                     </router-link>
                 </div>
@@ -116,7 +116,7 @@ button[data-toggle-navbar][data-is-open="true"] #line-2 {
 }
 
 .imgbox {
-    width: 100px;
+    width: 150px;
     height: auto;
     object-fit: fill;
 }

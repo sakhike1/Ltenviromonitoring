@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto mt-20 p-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+    <div class="container mx-auto mt-20 p-6" data-aos="fade-up" data-aos-duration="3000">
         <!-- Image at the top -->
         <img :src="image6" alt="Top Image" class="w-full object-fit  rounded-lg mb-8 h-[600px]" />
 
@@ -33,7 +33,7 @@ export default {
     name: 'ServicesComponent',
     data() {
         return {
-            image6: require('@/assets/nice.jpg'),
+            image6: require('@/assets/20.jpg'),
             services: [
                 {
                     id: 1,
