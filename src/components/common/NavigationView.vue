@@ -1,19 +1,18 @@
 <template>
     <div>
         <div data-nav-overlay aria-hidden="true" class="fixed bg-gray-800/40 inset-0 z-30 hidden lg:hidden"></div>
-        <header
-            class="sticky top-0 w-full flex items-center h-20  dark:border-b-gray-900 z-40 bg-white/80 dark:bg-gray-950/80 backdrop-filter backdrop-blur-xl">
+        <header class="sticky top-0 w-full flex items-center h-20  dark:border-b-gray-900 z-40   ">
             <nav
                 class="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 justify-between items-center">
                 <div class="flex items-center min-w-max">
                     <router-link to="/" class="flex items-center pr-4">
                         <img class="imgbox mt-20" :src="require('@/assets/logo5.jpg')" alt="Logo" />
-                        <span class="text-white font-bold text-xl ml-4">Your Brand</span>
+
                     </router-link>
                 </div>
 
                 <div data-navbar
-                    class="absolute top-full mt-20 translate-y-10 opacity-0 invisible lg:visible lg:translate-y-0 lg:opacity-100 left-0 bg-white dark:bg-gray-950 lg:bg-transparent border-b  dark:border-gray-800 py-8 lg:py-0 px-5 sm:px-10 md:px-12 lg:px-0 lg:border-none w-full lg:top-0 lg:relative lg:w-max lg:flex lg:transition-none duration-300 ease-linear gap-x-6">
+                    class="absolute top-full  translate-y-10 opacity-0 invisible lg:visible lg:translate-y-0 lg:opacity-100 left-0 bg-white dark:bg-gray-950 lg:bg-transparent border-b  dark:border-gray-800 py-8 lg:py-0 px-5 sm:px-10 md:px-12 lg:px-0 lg:border-none w-full lg:top-0 lg:relative lg:w-max lg:flex lg:transition-none duration-300 ease-linear gap-x-6">
                     <ul
                         class="flex flex-col lg:flex-row gap-6 lg:items-center text-gray-700 dark:text-gray-300 lg:w-full lg:justify-center">
                         <li>
@@ -119,8 +118,8 @@ button[data-toggle-navbar][data-is-open="true"] #line-2 {
 .imgbox {
 
     border-radius: 5px;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     display: table-cell;
     object-fit: cover;
 }
