@@ -116,11 +116,8 @@ button[data-toggle-navbar][data-is-open="true"] #line-2 {
 }
 
 .imgbox {
-
-    border-radius: 5px;
     width: 100px;
-    height: 100px;
-    display: table-cell;
-    object-fit: cover;
+    height: auto;
+    object-fit: fill;
 }
 </style>
