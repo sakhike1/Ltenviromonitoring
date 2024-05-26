@@ -70,7 +70,7 @@
 
                 <div class="flex flex-col items-center justify-between sm:flex-row">
                     <router-link to="/contact">
-                        <img class="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt="">
+
                     </router-link>
 
                     <p class="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-300">© Copyright 2021. All Rights
@@ -83,8 +83,21 @@
 
 <script>
 export default {
+    data() {
+        return {
 
+        }
+    }
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.imgbox {
+
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    display: table-cell;
+    object-fit: cover;
+}
+</style>
