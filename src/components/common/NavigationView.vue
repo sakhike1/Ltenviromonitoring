@@ -5,8 +5,8 @@
             <nav
                 class="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 justify-between items-center">
                 <div class="flex items-center min-w-max">
-                    <router-link to="/" class="flex items-center pr-4">
-                        <img class="imgbox " :src="require('@/assets/200.png')" alt="Logo" />
+                    <router-link to="/" class="flex items-center mt-4 pr-4">
+                        <img class="imgbox " :src="require('@/assets/logo7.jpg')" alt="Logo" />
 
                     </router-link>
                 </div>
@@ -37,12 +37,7 @@
                                 class="relative py-2.5 duration-300 ease-linear hover:text-indigo-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-x-100 after:bg-indigo-600">Contact</router-link>
                         </li>
                     </ul>
-                    <div class="flex flex-col sm:flex-row sm:items-center gap-4 lg:min-w-max mt-10 lg:mt-0">
-                        <router-link to="/Contact"
-                            class="relative flex justify-center px-6 py-3 before:absolute before:inset-0 before:rounded-lg before:transition before:bg-gray-100 dark:before:bg-gray-900 text-indigo-600 dark:text-white hover:before:scale-105">
-                            <span class="relative">Book a call</span>
-                        </router-link>
-                    </div>
+                    
                 </div>
                 <div class="flex items-center lg:hidden">
                     <button data-toggle-navbar data-is-open="false" aria-label="toggle navbar"
@@ -116,7 +111,7 @@ button[data-toggle-navbar][data-is-open="true"] #line-2 {
 }
 
 .imgbox {
-    width: 150px;
+    width: 100px;
     height: auto;
     object-fit: fill;
 }

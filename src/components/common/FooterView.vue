@@ -27,7 +27,7 @@
                     </div>
 
                     <div>
-                        <p class="font-semibold text-gray-800 dark:text-white">Environmental services</p>
+                        <p class="font-semibold text-gray-800 dark:text-white">ltenviromonitoring services</p>
 
                         <div class="flex flex-col items-start mt-5 space-y-2">
                             <router-link to="/Service"

@@ -11,9 +11,7 @@
                 Vision
             </h1>
 
-            <p>
-                To contribute towards the reduction of negative environmental <br> impacts and enhance positive
-                environmental
+            <p>To contribute towards the reduction of negative environmental impacts <br>  by enhancing the positive
                 impacts.
             </p>
 
@@ -21,9 +19,8 @@
                 Mission
             </h1>
             <p>
-                Conduct environmental monitoring, licensing and auditing to keep <br> abreast with client’s
-                environmental
-                impacts, assist clients to manage the impacts and fulfil legal compliance obligations.
+                Through the detailed impact assessments, monitoring and auditing, we keep abreast with <br> the industry’s
+                environmental impacts and assist them in managing the impacts and fulfilling heir compliance obligations
 
             </p>
         </section>

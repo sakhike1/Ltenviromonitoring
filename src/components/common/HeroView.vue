@@ -8,8 +8,8 @@
                 </div>
                 <div class="max-md:text-center">
 
-                    <p class="mt-6 text-sm">We strive for contribution in the reduction of negative environmental
-                        impacts and enhance the postive impacts</p>
+                    <p class="mt-6 text-sm">We strive for contributions in the reduction of negative environmental
+                        impacts by enhancing the positive impacts.</p>
                     <router-link to="/Contact" type="button"
                         class="inline-flex mt-5 h-12 animate-background-shine items-center justify-center rounded-md border border-gray-800 bg-gradient px-6 font-medium text-gray-100 transition-colors">Contact
                         us </router-link>
