@@ -1,7 +1,7 @@
 <template>
   <div class="container my-24 px-6 mx-auto">
     <!-- Section: Design Block -->
-    <section class="mb-32 text-gray-800">
+    <section class="mb-32 text-gray-800" data-aos="fade-up" data-aos-duration="3000">
       <div 
         class="relative overflow-hidden bg-no-repeat bg-cover"
         style="background-position: 50%; background-image: url('https://mdbootstrap.com/img/new/textures/full/284.jpg'); height: 300px;"
@@ -64,6 +64,10 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 export default {
     data() {
         return {
