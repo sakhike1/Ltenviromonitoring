@@ -61,7 +61,7 @@
                                 class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">0814342904
                             </router-link>
                             <router-link to="/contact"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Tebogo@ltenviromonitoring.co.za</router-link>
+                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Tebogo@enviroassess.co.za</router-link>
                         </div>
                     </div>
                 </div>
