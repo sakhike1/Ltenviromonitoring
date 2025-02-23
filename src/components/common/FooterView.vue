@@ -15,9 +15,7 @@
                         <p class="font-semibold text-gray-800 dark:text-white">Quick Link</p>
 
                         <div class="flex flex-col items-start mt-5 space-y-2">
-                            <router-link to="/Portfolio"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Portfolio
-                            </router-link>
+                            
                             <router-link to="/contact"
                                 class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Contact
                             </router-link>
@@ -32,26 +30,12 @@
                         <div class="flex flex-col items-start mt-5 space-y-2">
                             <router-link to="/Service"
                                 class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Services</router-link>
-                            <router-link to="/AboutUs"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">About
-                                us
-                            </router-link>
-                            <router-link to="/Portfolio"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">projects
-                            </router-link>
+                            
+                            
                         </div>
                     </div>
 
-                    <div>
-                        <p class="font-semibold text-gray-800 dark:text-white">Services</p>
-
-                        <div class="flex flex-col items-start mt-5 space-y-2">
-                            <router-link to="/Service"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Services</router-link>
-
-
-                        </div>
-                    </div>
+                    
 
                     <div>
                         <p class="font-semibold text-gray-800 dark:text-white">Contact Us</p>
@@ -61,7 +45,7 @@
                                 class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">0814342904
                             </router-link>
                             <router-link to="/contact"
-                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Tebogo@enviroassess.co.za</router-link>
+                                class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">services@enviroassess.co.za</router-link>
                         </div>
                     </div>
                 </div>

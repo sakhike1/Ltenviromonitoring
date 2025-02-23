@@ -26,7 +26,7 @@
                     </div>
                     <div class="grow ml-6">
                       <p class="font-bold mb-1">email us or call us</p>
-                      <p class="text-gray-500">Tebogo@enviroassess.co.za</p>
+                      <p class="text-gray-500">service@enviroassess.co.za</p>
                       <p class="text-gray-500">081434 2904 or 069367 1343</p>
                     </div>
                   </div>
@@ -46,7 +46,7 @@
                     </div>
                     <div class="grow ml-6">
                       <p class="font-bold mb-1">email us </p>
-                      <p class="text-gray-500">Tebogo@enviroassess.co.za</p>
+                      <p class="text-gray-500">service@enviroassess.co.za</p>
 
                     </div>
                   </div>

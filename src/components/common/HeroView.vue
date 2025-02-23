@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="bg-green-800 font-[sans-serif] text-white p-6 mt-20">
+        <div class="bg-green-800 font-[sans-serif] text-white p-6 ">
             <div class="grid md:grid-cols-2 items-center gap-10 max-w-5xl max-md:max-w-md mx-auto" data-aos="fade-right"
                 data-aos-duration="3000">
                 <div class="md:h-[400px]">
